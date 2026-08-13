@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local database (the deployed app fetches its own data, so this never needs to be committed)
+*.db
+
+# Virtual environment
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
